@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Student Semester Average</h1>
+    </header>
+
+    <main class="container">
+      <table>
+        <thead>
+          <th></th>
+          <th>Subject Name</th>
+          <th>Scored Marks</th>
+          <th>Total Marks</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Subject 1</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Subject 2</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Subject 3</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Subject 4</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+          <!-- comment   <tr>
+            <td>5</td>
+            <td>Social S</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Drawing</td>
+            <td class="scoreMarks" contenteditable="true">00</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>Total Marks</td>
+            <td id="totalScoredMarks">00</td>
+            <td id="totalMarks">600</td>
+          </tr>
+        </tfoot> -->
+      </table>
+      <div class="btn-container">
+        <button onclick="calculate()">Calculate</button>
+        <div id="percentage">Percentage :</div>
+      </div>
+    </main>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
